@@ -1,3 +1,9 @@
+//=============================================================================
+//==>Nombre del programa:LaEdad
+//==>Autor:Araceli Ruano
+//==>Fecha de elaboracion:2022-05-01
+//==>Fecha de actualizacion:2022-05-20
+//============================================================================
 #include<iostream>
 using namespace std;
 
@@ -10,8 +16,8 @@ int main() {
 	float fnac;
 	float mesact;
 	float mesnac;
-	//pedimos al usuario que ingrese el año de nacimiento//
-	cout << "Ingresar el año de nacimiento" << endl;
+	//pedimos al usuario que ingrese el aÃ±o de nacimiento//
+	cout << "Ingresar el aÃ±o de nacimiento" << endl;
 	cin >> fnac;
 	//pedimos al usuario que ingrese el que nacio//
 	cout << "ingresar el mes de nacimiento" << endl;
@@ -19,8 +25,8 @@ int main() {
 	//pedimos al usuario que ingrese el dia en que nacio//
 	cout << "Ingresar el dia de nacimiento" << endl;
 	cin >> dianac;
-	//pedimos al usuario que ingrese el año actual//
-	cout << "Ingresar el año actual" << endl;
+	//pedimos al usuario que ingrese el aÃ±o actual//
+	cout << "Ingresar el aÃ±o actual" << endl;
 	cin >> fact;
 	//pedimos que ingrese el mes actual//
 	cout << "Ingresar el mes actual" << endl;
@@ -28,9 +34,9 @@ int main() {
 	//pedimos que ingrese el dia actual//
 	cout << "Ingresar el dia actual" << endl;
 	cin >> diaact;
-	//para calcular la edad restamos el año actual con el año de nacimiento//
+	//para calcular la edad restamos el aÃ±o actual con el aÃ±o de nacimiento//
 	edad = fact-fnac;
-	//para calcular los dias que han pasado, multiplicamos la edad por los 12 meses del año//
+	//para calcular los dias que han pasado, multiplicamos la edad por los 12 meses del aÃ±o//
 	diaact = edad*12;
 	//para calcular el mes, restamos el mes actual con el mes de nacimiento//
 	mesact = mesact-mesnac;
@@ -38,6 +44,14 @@ int main() {
 	cout << "usted tiene:" << edad << endl;
 	cout << "dias:" << diaact << endl;
 	cout << "meses:" << mesact << endl;
+		cout<<endl<<"//================================================"<<endl;
+cout<<"//==> Nombre del programa: LaEdad"<<endl;
+cout<<"//==> Archivo : RuanoAraceli-LaEdad.cpp"<<endl;
+cout<<"//==>Autor: Araceli Ruano"<<endl;
+cout<<"//==>Fecha de elaboracion: 2022-05-01"<<endl;
+cout<<"//==>Fecha ultima actualizacion: 2022-05-20"<<endl;
+cout<<"//================================================="<<endl;
 	return 0;
 }
+
 
