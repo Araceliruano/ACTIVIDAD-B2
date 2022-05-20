@@ -9,41 +9,41 @@ using namespace std;
 
 int main() {
 	//declaramos las variables//
-	float diaact;
-	float dianac;
-	float edad;
-	float fact;
-	float fnac;
-	float mesact;
-	float mesnac;
+	float AR_diaact;
+	float AR_AR_dianac;
+	float AR_edad;
+	float AR_fact;
+	float AR_fnac;
+	float AR_mesact;
+	float AR_mesnac;
 	//pedimos al usuario que ingrese el año de nacimiento//
 	cout << "Ingresar el año de nacimiento" << endl;
-	cin >> fnac;
+	cin >> AR_fnac;
 	//pedimos al usuario que ingrese el que nacio//
 	cout << "ingresar el mes de nacimiento" << endl;
-	cin >> mesnac;
+	cin >> AR_mesnac;
 	//pedimos al usuario que ingrese el dia en que nacio//
 	cout << "Ingresar el dia de nacimiento" << endl;
-	cin >> dianac;
+	cin >> AR_dianac;
 	//pedimos al usuario que ingrese el año actual//
 	cout << "Ingresar el año actual" << endl;
-	cin >> fact;
+	cin >> AR_fact;
 	//pedimos que ingrese el mes actual//
 	cout << "Ingresar el mes actual" << endl;
-	cin >> mesact;
+	cin >> AR_mesact;
 	//pedimos que ingrese el dia actual//
 	cout << "Ingresar el dia actual" << endl;
-	cin >> diaact;
+	cin >> AR_diaact;
 	//para calcular la edad restamos el año actual con el año de nacimiento//
-	edad = fact-fnac;
+	AR_edad = AR_fact-AR_fnac;
 	//para calcular los dias que han pasado, multiplicamos la edad por los 12 meses del año//
-	diaact = edad*12;
+	AR_diaact = AR_edad*12;
 	//para calcular el mes, restamos el mes actual con el mes de nacimiento//
-	mesact = mesact-mesnac;
+	AR_mesact = AR_mesact-AR_mesnac;
 	//presentamos o imprimimos la edad, los dias y los meses//
-	cout << "usted tiene:" << edad << endl;
-	cout << "dias:" << diaact << endl;
-	cout << "meses:" << mesact << endl;
+	cout << "usted tiene:" << AR_edad << endl;
+	cout << "dias:" << AR_diaact << endl;
+	cout << "meses:" << AR_mesact << endl;
 		cout<<endl<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa: LaEdad"<<endl;
 cout<<"//==> Archivo : RuanoAraceli-LaEdad.cpp"<<endl;
