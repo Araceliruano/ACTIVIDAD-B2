@@ -1,5 +1,5 @@
 //=============================================================================
-//==>Nombre del programa:compara
+//==>Nombre del programa:PuntoVenta
 //==>Autor:Araceli Ruano
 //==>Fecha de elaboracion:2022-04-30
 //==>Fecha de actualizacion:2022-05-20
